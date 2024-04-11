@@ -10,7 +10,7 @@ void displayRun(int values[], int size) {
         if (i > 0 && values[i] == values[i - 1]) {
             if (!inRun) {
                 cout << "(" << values[i];
-                inRun = true;
+                inRun = true; 
             }
             else {
                 cout << " " << values[i];
