@@ -15,7 +15,7 @@ void displayRun(int values[], int size) {
             else {
                 cout << " " << values[i];
             }
-        }
+        } 
         else {
             if (inRun) {
                 cout << ")";
