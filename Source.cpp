@@ -19,7 +19,7 @@ void displayRun(int values[], int size) {
         else {
             if (inRun) {
                 cout << ")";
-                inRun = false;
+                inRun = false; 
             }
             cout << " " << values[i];
         }
